@@ -15,7 +15,7 @@ The workflow replaces repeated LLM calls with platform-agnostic priors that can 
 ## Conceptual Workflow
 
 <p align="center">
-  <img src="figures/workflow.png" width="900">
+  <img src="figures/workflow_v1.png" width="900">
 </p>
 
 **Figure 1 | Amortized LLM workflow.**  
