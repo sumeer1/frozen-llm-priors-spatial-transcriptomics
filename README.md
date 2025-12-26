@@ -59,7 +59,7 @@ We recommend running the notebooks in the following order to reproduce the resul
 3. `03_cross_platform_transfer.ipynb`  
    *Direct transfer of frozen priors from MERFISH to Stereo-seq*
    
-4. `02_cell_cell_interaction/`  
+4. `01_cell_cell_interaction/`  
    *Cell–cell interaction inference, prompt ablations, and surrogate distillation*
 
 ---
