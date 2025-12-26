@@ -18,6 +18,6 @@ The workflow replaces repeated LLM calls with platform-agnostic priors that can 
   <img src="figures/workflow.png" width="900">
 </p>
 
-**Figure 1a | Amortized LLM workflow.**  
+**Figure 1 | Amortized LLM workflow.**  
 Top: traditional per-query LLM inference requires repeated, stochastic calls and platform-specific reruns.  
 Bottom: the proposed approach uses the LLM once to synthesize frozen priors, which are then reused deterministically across platforms for annotation and CCI discovery.
