@@ -11,3 +11,13 @@ We demonstrate this paradigm on two core spatial transcriptomics tasks:
 2. **Cell–cell interaction (CCI) inference** using frozen LLM interaction judgments distilled into a surrogate model  
 
 The workflow replaces repeated LLM calls with platform-agnostic priors that can be reused across datasets, technologies, and scales.
+
+## Conceptual Workflow
+
+<p align="center">
+  <img src="figures/workflow.png" width="900">
+</p>
+
+**Figure 1a | Amortized LLM workflow.**  
+Top: traditional per-query LLM inference requires repeated, stochastic calls and platform-specific reruns.  
+Bottom: the proposed approach uses the LLM once to synthesize frozen priors, which are then reused deterministically across platforms for annotation and CCI discovery.
